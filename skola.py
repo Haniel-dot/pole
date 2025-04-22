@@ -16,8 +16,8 @@ skola.append(dalsi)
 skola.remove("učebny")
 
 #seradit
-print(skola.sort)
+print(skola.sort())
 
 #obratit poradi
-print(skola.reverse)
+print(skola.reverse())
 
