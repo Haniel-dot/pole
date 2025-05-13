@@ -71,4 +71,20 @@ for i in sezovoce:
         print("banan tam je")
 print("--------------------")
  
- 
+#vetsi nez 10
+vetsi=[2,3,85,96,75,52]
+uloz=0
+for i in vetsi:
+    if i>10:
+        uloz=uloz+1
+print(uloz)
+print("--------------------")
+
+#kolik zmanek chce zadat
+znam=[]
+smyc=int(input("kolik chcete zadat znamek"))
+for i in range(smyc):
+    znam.append(int(input("zadejte znamky")))
+soo=sum(znam)
+prumer=soo/len(znam)
+print(prumer)
